@@ -1,0 +1,8 @@
+.wrapper {
+  @apply 2xl:w-1/2 mx-auto mt-10 xl:w-8/12 lg:w-10/12;
+
+  .table {
+    @apply shadow;
+  }
+
+}

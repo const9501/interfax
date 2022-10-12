@@ -1,0 +1,18 @@
+.evenRow {
+  @apply bg-gray-50 px-4 py-5 grid grid-cols-10 gap-5;
+}
+.oddRow {
+  @apply bg-white px-4 py-5 grid grid-cols-10 gap-5;
+}
+
+.name {
+  @apply cursor-pointer hover:underline break-all col-span-3;
+}
+
+.stars {
+  @apply flex items-center justify-center;
+
+  .count {
+    @apply ml-1 text-sm font-bold text-gray-900;
+  }
+}

@@ -1,0 +1,7 @@
+.form {
+  @apply mt-20 flex justify-center;
+
+  input {
+    @apply border-b-2 border-b-sky-700 outline-none px-2 py-0.5 text-lg mr-5 font-medium placeholder:font-normal w-1/3
+  }
+}

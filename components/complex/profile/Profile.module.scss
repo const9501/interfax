@@ -1,0 +1,23 @@
+.wrapper {
+  @apply mb-10 overflow-hidden bg-white shadow sm:rounded-lg 2xl:w-2/3 mx-auto mt-10 xl:w-10/12;
+
+  .tableHeader {
+    @apply px-4 py-5 sm:px-6 flex items-center gap-5;
+
+    .avatar {
+      @apply h-32 rounded-full;
+    }
+
+    .login {
+      @apply text-2xl font-medium leading-6 text-gray-900;
+    }
+  }
+
+  .tableBody {
+    @apply border-t border-gray-200;
+  }
+}
+
+.error {
+  @apply mx-auto text-3xl w-fit mt-10;
+}
