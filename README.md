@@ -1,4 +1,4 @@
-# SPA приложение GitHub searcher (Next+RTK+TS+Tailwind)
+# SPA приложение GitHub searcher (Next+ReduxToolkit+TS+Tailwind)
 
 ## Запуск приложения
 
